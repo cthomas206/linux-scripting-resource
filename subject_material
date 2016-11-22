@@ -1,0 +1,53 @@
+Subject material:
+Grep
+Grep stands for “Global regular expression print.” The main purpose of the Grep command is to print all lines that match a certain pattern. It can be used to search one or more input files for specific lines containing a match to a specified pattern.
+Examples of what the Grep command can do.
+Search and find files.
+Search and Filter Files.
+Find all (e.g.) .mp3 files only.
+Display number of lines before or after search string.
+Prints number of lines around match.
+Count number of matches.
+Search files by given string.
+Search a string recursively in all directories.
+Search for the entire pattern.
+Search a string in Gzipped files.
+Match regular expression in files.
+Search a fixed pattern string.
+
+
+Sed
+Sed is the Stream Editor. Its main purpose as a Unix command is text replacement. This can be done in each line of a file or stream. A single word
+or whole strings (parts of a line).
+For example the lines below contain the price of a CD set at $6.30 in a file named songs.txt.
+    1, Justin Timberlake, Title 545, Price $6.30
+    2, Taylor Swift, Title 723, Price $6.30
+Execute the following sed command will replace $6.30 with $7.30.
+sed 's/6.30/7.30/' songs.txt > songs2.txt
+The output would be:
+    1, Justin Timberlake, Title 545, Price $7.30
+    2, Taylor Swift, Title 723, Price $7.30
+
+
+What is a Email Harvester?
+Email harvesting is a process of gathering large amounts of email addresses through different methods. These are then used for bulk emailing or spamming.
+The most common method is to use a “harvester.”
+
+
+
+
+REFERENCES
+12 Practical Examples of Linux grep Command. 8/30/2016.
+http://www.tecmint.com/12-practical-examples-of-linux-grep-command/
+
+
+Email address harvesting. 11/8/2016.
+https://en.wikipedia.org/wiki/Email_address_harvesting
+
+
+“Sed” command in bash. 10/21/2010.
+http://stackoverflow.com/questions/3984824/sed-command-in-bash
+
+
+Example Uses of Sed. 8/20/2016.
+https://www.lifewire.com/example-uses-of-sed-2201058
